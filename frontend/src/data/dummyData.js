@@ -1,8 +1,8 @@
 export const users = [
     { id: 1, name: 'Admin', role: 'admin' },
-    { id: 2, name: 'User A', role: 'general' },
-    { id: 3, name: 'User B', role: 'general' },
-    { id: 4, name: 'User C', role: 'general' },
+    { id: 2, name: 'User A', role: 'user' },
+    { id: 3, name: 'User B', role: 'user' },
+    { id: 4, name: 'User C', role: 'user' },
 ];
 
 export const assetTypes = [

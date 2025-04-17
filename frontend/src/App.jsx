@@ -10,9 +10,18 @@ import TransferAsset from './pages/TransferAsset';
 import UserList from './pages/UserList';
 import UserTransaction from './pages/UserTransaction';
 import Reports from './pages/Reports';
+import { Box } from '@mui/material';
+
 
 const App = () => {
   return (
+    <Box
+    sx={{
+      minHeight: '100vh',
+      background: 'linear-gradient(to bottom right, #e3f2fd, #f5f5f5, #ffffff)',
+      color: 'text.primary',
+    }}
+  >
     <Router>
       <Navbar />
       <Routes>
@@ -27,6 +36,7 @@ const App = () => {
         <Route path="/user-transactions/:id" element={<UserTransaction />} />
       </Routes>
     </Router>
+    </Box>
   );
 };
 

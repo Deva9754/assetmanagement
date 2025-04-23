@@ -1,11 +1,6 @@
 {
-    "routes": [{
-            "src": "/",
-            "dist": "/"
-        },
-        {
-            "src": "/test",
-            "dist": "/"
-        }
-    ]
+    "rewrites": [{
+        "source": "/(.*)",
+        "destination": "/index.html"
+    }]
 }

@@ -1,4 +1,3 @@
-// src/pages/Dashboard.jsx
 import React from 'react';
 import { Box, Typography, Grid, Paper } from '@mui/material';
 import { assets, users } from '../data/dummyData';

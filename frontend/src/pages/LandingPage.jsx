@@ -47,21 +47,7 @@ export default function AssetManagementLanding() {
               <p className="text-xl mb-8 text-blue-100">
                 Streamline your asset tracking, maintenance, and reporting with our powerful platform.
               </p>
-              {/* <div className="flex mb-6 sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                <button
-                  className="bg-white text-blue-700 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium shadow-lg"
-                  onClick={() => document.getElementById('features-section').scrollIntoView({ behavior: 'smooth' })}
-                >
-                  Explore Features
-                </button>
-                <button
-                  className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 text-white px-6 py-3 rounded-lg font-medium"
-                  onClick={() => document.getElementById('login-section').scrollIntoView({ behavior: 'smooth' })}
-                >
-                  Get Started
-                </button>
-              </div> */}
-       
+             
        <div className=" md:flex-row md:space-x-4 space-y-4  md:space-y-0 mb-6 ">
   <button
     className="bg-white text-blue-700 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium shadow-lg"

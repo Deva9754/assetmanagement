@@ -64,7 +64,6 @@ const AssetList = () => {
         </div>
       </div>
 
-      {/* Asset Table */}
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-gray-300 rounded shadow">
           <thead className="bg-gray-100">

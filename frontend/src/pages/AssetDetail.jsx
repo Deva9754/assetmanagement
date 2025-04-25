@@ -1,4 +1,3 @@
-// src/pages/AssetDetail.jsx
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { assets } from "../data/dummyData";

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-// Dummy dropdown data
 const assetTypes = ['Electronics', 'Furniture', 'Books', 'Vehicles'];
 const users = ['Admin', 'User1', 'User2', 'User3'];
 

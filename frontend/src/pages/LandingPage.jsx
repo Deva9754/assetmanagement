@@ -36,7 +36,6 @@ export default function AssetManagementLanding() {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <div className="pt-16 pb-24 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center">

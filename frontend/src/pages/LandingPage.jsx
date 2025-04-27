@@ -70,7 +70,6 @@ export default function AssetManagementLanding() {
 
      <LandingFeat/>
 
-      {/* Footer */}
   <Footer/>
     </div>
   );

@@ -68,8 +68,10 @@ export default function AssetManagementLanding() {
         </div>
       </div>
 
+      {/* Features Section */}
      <LandingFeat/>
 
+      {/* Footer */}
   <Footer/>
     </div>
   );

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { assets, users, transactions, assetTypes } from "../data/dummyData";
 import { useNavigate } from "react-router-dom";
 import useUserRole from "../hooks/useUserRole"; // import your hook
-import { auth } from "../firebase/firebaseConfig"; // to get current logged in user
+import { auth } from "../firebase/firebaseConfig"; 
 
 const Reports = () => {
   const [searchTerm, setSearchTerm] = useState("");

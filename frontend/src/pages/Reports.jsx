@@ -4,7 +4,7 @@
 import React, { useState } from "react";
 import { assets, users, transactions, assetTypes } from "../data/dummyData";
 import { useNavigate } from "react-router-dom";
-import useUserRole from "../hooks/useUserRole"; // import your hook
+import useUserRole from "../hooks/useUserRole"; 
 import { auth } from "../firebase/firebaseConfig"; 
 
 const Reports = () => {

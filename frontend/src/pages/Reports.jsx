@@ -22,7 +22,6 @@ const Reports = () => {
     return users.find((user) => user.id === userId)?.name || "Unknown";
   };
 
-  // Filter assets based on search term and role
   const filteredAssets = assets.filter((asset) => {
     const matchesSearch = asset.name.toLowerCase().includes(searchTerm.toLowerCase());
     if (role === "admin") return matchesSearch;

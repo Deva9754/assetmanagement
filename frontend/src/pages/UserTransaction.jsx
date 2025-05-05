@@ -1,4 +1,3 @@
-// src/pages/UserTransaction.jsx
 import React from "react";
 import { transactions } from "../data/dummyData";
 

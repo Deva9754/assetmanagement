@@ -15,7 +15,7 @@ const useUserRole = () => {
               const userData = userDoc.data();
               setRole(userData.role); // "admin" or "user"
             } else {
-              setRole("none"); // No doc found
+              setRole("none"); 
             }
           } catch (error) {
             console.error("Error fetching user role:", error);

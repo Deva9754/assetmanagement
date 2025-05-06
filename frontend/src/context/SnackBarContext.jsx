@@ -9,7 +9,7 @@ export const useSnackbar = () => useContext(SnackbarContext);
 export const SnackbarProvider = ({ children }) => {
   const [open, setOpen] = useState(false);
   const [message, setMessage] = useState('');
-  const [severity, setSeverity] = useState('success'); // success | error | warning | info
+  const [severity, setSeverity] = useState('success');
 
   const showSnackbar = (msg, type = 'success') => {
     setMessage(msg);

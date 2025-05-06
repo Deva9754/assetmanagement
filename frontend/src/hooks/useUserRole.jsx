@@ -13,7 +13,7 @@ const useUserRole = () => {
             const userDoc = await getDoc(doc(db, "users", user.uid));
             if (userDoc.exists()) {
               const userData = userDoc.data();
-              setRole(userData.role); // "admin" or "user"
+              setRole(userData.role); 
             } else {
               setRole("none"); 
             }
@@ -22,7 +22,7 @@ const useUserRole = () => {
             setRole("error");
           }
         } else {
-          setRole("none"); 
+          setRole("none"); // No user logged in
         }
       };
   

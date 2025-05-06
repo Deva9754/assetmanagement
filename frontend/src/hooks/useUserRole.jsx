@@ -22,7 +22,7 @@ const useUserRole = () => {
             setRole("error");
           }
         } else {
-          setRole("none"); // No user logged in
+          setRole("none"); 
         }
       };
   

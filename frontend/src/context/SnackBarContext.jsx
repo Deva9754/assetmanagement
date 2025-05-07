@@ -1,4 +1,3 @@
-// src/context/SnackbarContext.js
 import React, { createContext, useContext, useState } from 'react';
 import { Snackbar, Alert } from '@mui/material';
 
@@ -9,7 +8,7 @@ export const useSnackbar = () => useContext(SnackbarContext);
 export const SnackbarProvider = ({ children }) => {
   const [open, setOpen] = useState(false);
   const [message, setMessage] = useState('');
-  const [severity, setSeverity] = useState('success'); 
+  const [severity, setSeverity] = useState('success'); // success | error | warning | info
 
   const showSnackbar = (msg, type = 'success') => {
     setMessage(msg);

@@ -1,3 +1,4 @@
+// src/context/SnackbarContext.js
 import React, { createContext, useContext, useState } from 'react';
 import { Snackbar, Alert } from '@mui/material';
 
@@ -22,7 +23,7 @@ export const SnackbarProvider = ({ children }) => {
   };
 
   return (
-    <SnackbarContext.Provider value={{ showSnackbar }}>
+    // <SnackbarContext.Provider value={{ showSnackbar }}>
       {children}
       <Snackbar
         open={open}
